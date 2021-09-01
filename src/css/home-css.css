@@ -1,0 +1,27 @@
+
+.Home-container {
+    width: 100%;
+    height: 100%;
+    background-color: #272727;
+}
+
+.pagination {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.pagination a{
+    color: #FFEA00;
+    text-decoration: underline #FFEA00;
+}
+
+.left-menu {
+    width: 350px;
+    height: 710px;
+    float: left;
+    box-shadow: 5px 0 5px black;
+    z-index: 10;
+}
+
+.table_way {
+    float: left;
+}

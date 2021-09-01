@@ -1,0 +1,8 @@
+.Header_container {
+    height: 80px;
+    width: 100%;
+    background-color: #272727;
+    /*box-shadow: 4px 4px 8px 5px #272727;*/
+    box-shadow: 0 4px 8px black;
+    z-index: 9;
+}

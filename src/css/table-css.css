@@ -1,0 +1,26 @@
+
+.table-content {
+    margin-top: 40px;
+    border: 3px solid #E5E5E5;
+    /*margin-right: auto;*/
+    margin-left: 40px;
+    max-width: 60%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.table-content th:not(:first-child)  , td {
+    padding: 20px 90px;
+    border-bottom: 2px solid #E5E5E5;
+    border-right: 2px solid #E5E5E5;
+}
+
+.table-content th:first-child{
+    padding: 10px 15px;
+    border-bottom: 2px solid #E5E5E5;
+    border-right: 2px solid #E5E5E5;
+}
+
+.table-content th:last-child {
+
+}
