@@ -1,0 +1,42 @@
+
+
+.Block-3-container {
+    /*height: 6000px;*/
+    width: 100%;
+    transition: width 0.3s ease-out;
+    position: absolute;
+    z-index: 102;
+}
+
+
+.intro {
+
+}
+
+#video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.fixedVideo {
+    z-index: 100;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: auto;
+}
+
+
+.Block-3-container h1 {
+    margin-top: 150px;
+    transform: translateX(-100%);
+    font-size: 30px;
+    text-align: center;
+}
+.Block-3-container h2 {
+    margin-top: 150px;
+    transform: translateX(-100%);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1000px;
+}

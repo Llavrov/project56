@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/table-css.css';
+import '../../css/unUsable/table-css.css';
 
 function Table_component({array, rows = [], colums}) {
 

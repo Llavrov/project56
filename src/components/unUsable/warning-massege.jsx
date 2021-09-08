@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/warning-massege.css'
+import '../../css/unUsable/warning-massege.css'
 
 function warningMassege(){
 

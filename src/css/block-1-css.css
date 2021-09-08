@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.Block-1-container {
+    background-color: #76BCF5;
+    box-shadow: inset 25px 25px 250px 50px #2A699C;
+}
+
+.Block-1-img {
+    background-image: url("../images/Lev-b1.png");
+    height: 950px;
+    width: 94%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 100px;
+}
+
+.about-myself {
+    margin-left: 150px;
+    height: 520px;
+    width: 600px;
+    padding-top: 60px;
+}
+.about-myself .slider-text {
+    width: 589px;
+}
+
+.about-myself h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 105px;
+    color: #D7F1FF;
+    text-shadow: 2px 0 0 #D7F1FF, -2px 0 0 #D7F1FF, 0 2px 0 #D7F1FF, 0 -2px 0 #D7F1FF, 1px 1px #D7F1FF, -1px -1px 0 #D7F1FF, 1px -1px 0 #D7F1FF, -1px 1px 0 #D7F1FF, 0px 4px 8px black;
+}
+.about-myself .slider-text p {
+    font-family: 'Comfortaa', cursive;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-size: 42px;
+}
+
+.about-myself .slider-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-myself .slider-dot:hover {
+    background-color: #332A699C;
+}
+
+.about-myself .slider-dot:first-child{
+    background-color: #2A699C;
+}
+
+.about-myself .slider-position {
+    display: flex;
+    width: 80px;
+    margin-left: 150px;
+    margin-right: auto;
+}
+

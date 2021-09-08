@@ -1,19 +1,34 @@
 import React from 'react';
-import Table_component from "./Table_component";
+import { useSelector, useDispatch } from 'react-redux';
+import {fetchPhotos} from "../Redux/actions/photos";
 import "../css/home-css.css"
+import Block1 from "./Block-1";
+import Block2 from "./Block-2";
+import Block3 from "./Block-3";
+import Header from "./header";
+import Block6 from "./Block-6";
+import PopUp from "./popUp";
+import Footer from "./Footer";
 
 function Home() {
     let array = [1, 2, 3, 4, 5];
+
+    const dispatch = useDispatch();
+    const sortBy = useSelector(({ filters }) => filters.sortBy);
+    const photos = useSelector(({ photos }) => photos.items);
+
+    React.useEffect(() => {
+        dispatch(fetchPhotos(sortBy));
+    }, [sortBy]);
+
     return (
       <div className='Home-container'>
-          <div className="warning-massege"></div>
-          <div className="left-menu"></div>
-          <div className="table_way">
-              <div className="pagination">
-                  <a href="#">hub1-page > next-page > last-page</a>
-              </div>
-              <Table_component rows={array}/>
-          </div>
+          {/*<Header></Header>*/}
+          <Block1></Block1>
+          <Block2></Block2>
+          <Block3 photos={photos}></Block3>
+          <Footer></Footer>
+          {/*<Block6></Block6>*/}
       </div>
     );
 }

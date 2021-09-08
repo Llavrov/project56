@@ -1,0 +1,74 @@
+.block3-container {
+    width: 100%;
+    background-color: white;
+}
+
+.block3-adaptive {
+    width: 90%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block3-adaptive .tags-container {
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.tag_unit {
+    font-size: 18px;
+    color: #4D4C4C;
+    padding: 8px;
+    border-radius: 18px;
+    border: 1px solid #4D4C4C;
+    margin-left: 36px;
+}
+
+.tag_unit:hover {
+    background-color: #ECECEC;
+    color: black;
+}
+
+.activeTagUit {
+    background-color: #2A699C;
+    color: white;
+}
+
+.photos-container {
+    display: grid;
+    grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+    padding-bottom: 200px;
+}
+
+.photos-container .photoRow .photo {
+    /*width: 33.3333333%;*/
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 30px;
+    overflow: hidden;
+    max-height: 100%;
+    border-radius: 4px;
+    /*object-fit: cover;*/
+}
+
+.photos-container .photoRow .photo:hover {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px #D7F1FF;
+
+}
+
+.photos-container .photoRow .photo img{
+    width: 100%;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.photoRow {
+
+}

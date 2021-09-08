@@ -1,0 +1,20 @@
+
+.blog_component {
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 200px;
+    float: left;
+    background-color: red;
+}
+
+.blog-section {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+}
+
+.blog-section div {
+    background-color: white;
+    height: 100vh;
+    transition: background-color 1s;
+}

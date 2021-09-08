@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap');
+
+
+.Block-2-container {
+    width: 94%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 670px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ReactComp-container {
+    background-color: #0E2C45;
+    width: 670px;
+    height: 670px;
+    overflow: hidden;
+    float: left;
+}
+
+.ReactComp-container .ReactComp-img {
+    background-image: url("../images/icon-react.png");
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 670px;
+}
+
+.ReactComp-container .ReactComp-img .ReactComp-text h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #25DBFF;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+                                 /*Circle cards*/
+
+/*------------------------------------------------------------------------------------------------*/
+
+
+.CircleCards-container {
+    width: 284px;
+    height: 188px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 20px;
+    float: left;
+}
+
+.CircleCards-container:first-child {
+    margin-left: 50px;
+}
+
+.CircleCards-container p {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.CircleCards-container:hover {
+    background-color: #E5E5E5;
+}
+
+.ReactComp-container .circle-cards {
+    height: 188px;
+    width: 1850px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+                                 /*Box cards*/
+
+/*------------------------------------------------------------------------------------------------*/
+
+.BoxCards-container {
+    width: 284px;
+    height: 388px;
+    background-color: white;
+    margin-left: 20px;
+    float: left;
+}
+
+.BoxCards-container:hover {
+    background-color: #E5E5E5;
+}
+
+.BoxCards-container:first-child {
+    margin-left: 50px;
+}
+
+.BoxCards-container p {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.ReactComp-container .box-cards {
+    margin-top: 40px;
+    width: 1800px;
+
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+                                      /*Js component*/
+
+/*------------------------------------------------------------------------------------------------*/
+
+.JsComponent-container {
+    background-color: #0E2C45;
+    width: 670px;
+    height: 670px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+}
+
+.JsComponent-text {
+    margin-left: 18%;
+}
+
+.JsComponent-text h1{
+    font-size: 80px;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    float: left;
+}
+
+.JsComponent-text .Yellow-text {
+    color: #F8E500;
+}
+
+.JsComponent-slider {
+    margin-left: 40px;
+    width: 2700px;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+
+.JsComponent-slider > div {
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.JsComponent-slider .PrePrev-elem {
+    transform: translateX(-220%) scale(1.2);
+    /*display: none;*/
+    transition: all 1s;
+    position: absolute;
+    height: 330px;
+    width: 460px;
+}
+
+.JsComponent-slider .Prev-elem {
+    transform: translateX(-110%) scale(1.2);
+    transition: all 1s;
+    position: absolute;
+    height: 330px;
+    width: 460px;
+}
+
+.JsComponent-slider .Activ-elem {
+    transition: all 1s;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 330px;
+    width: 460px;
+}
+
+.JsComponent-slider .Next-elem {
+    transform: translateX(120%) scale(1.2);
+    transition: all 1s;
+    position: absolute;
+    height: 330px;
+    width: 460px;
+}
+
+.JsComponent-slider .NeNext-elem {
+    transform: translateX(230%) scale(1.2);
+    /*display: none;*/
+    transition: all 1s;
+    position: absolute;
+    height: 330px;
+    width: 460px;
+}
+
+.JsComponent-slider > div > img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.Next-btn {
+    position: absolute;
+    right: 10px;
+    margin-top: 105px;
+}
+
+.Prev-btn {
+    position: absolute;
+    left: 10px;
+    margin-top: 105px;
+}
