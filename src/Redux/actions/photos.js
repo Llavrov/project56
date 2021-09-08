@@ -7,7 +7,7 @@ export const setLoaded = (payload) => ({
 
 export const fetchPhotos = (sortBy = "all") => (dispatch) => {
     dispatch(setLoaded(false));
-    axios.get('http://localhost:3000/photos.json').then(({ data }) => {
+    axios.get('https://llavrov.github.io/project56/photos.json').then(({ data }) => {
         let items = data.photos;
         switch (sortBy) {
             case 'Projects':
