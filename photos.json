@@ -2,37 +2,37 @@
   "photos": [
     {
       "type": "style",
-      "imgUrl": "http://localhost:3000/Imges/style_01.jpg",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/style_01.jpg",
       "indexId": 1
     },
     {
       "type": "style",
-      "imgUrl": "http://localhost:3000/Imges/style_02.jpg",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/style_02.jpg",
       "indexId": 2
     },
     {
       "type": "style",
-      "imgUrl": "http://localhost:3000/Imges/style_03.jpg",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/style_03.jpg",
       "indexId": 3
     },
     {
       "type": "sport",
-      "imgUrl": "http://localhost:3000/Imges/sport_01.jpeg",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/sport_01.jpeg",
       "indexId": 1
     },
     {
       "type": "friends",
-      "imgUrl": "http://localhost:3000/Imges/friends_01.jpg",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/friends_01.jpg",
       "indexId": 1
     },
     {
       "type": "friends",
-      "imgUrl": "http://localhost:3000/Imges/friends_02.jpg",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/friends_02.jpg",
       "indexId": 2
     },
     {
       "type": "projects",
-      "imgUrl": "http://localhost:3000/Imges/projects_01.jpg",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/projects_01.jpg",
       "indexId": 1
     }
   ]
