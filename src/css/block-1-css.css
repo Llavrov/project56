@@ -126,6 +126,8 @@
     .about-myself {
         margin-left: 50px;
         padding-top: 30px;
+        width: calc(100% - 50px);
+
     }
 
 }
