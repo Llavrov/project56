@@ -4,9 +4,9 @@ import "../css/block-1-css.css"
 
 function Block1 (){
     let textMessages = [
-        <div className="text-opacity"><p >"Привет, давай немного расскажу о себе. Мне 19 лет, IT увлечен с 6 класса. Обожаю хороший кофе и бумажные стаканчики с интересными артами)"</p></div>,
-        <div className="text-opacity"><p className="text-opacity">"Умею работать с figma, React, Python, Javascript, Photoshop, Blender 3d. Живу и работаю в Москве. Могу нарисовать твой портрет карандашом:)"</p></div>,
-        <div className="text-opacity"><p className="text-opacity">"На этом сайте ты можешь посмотреть, что я могу сделать, а также ознакомиться с моими другими работами. Если тебе что-то понравится, или ты просто захочешь написать мне, то листай в самый низ сайта."</p></div>,
+        <div className="text-opacity"><p>Привет, давай немного расскажу о себе. Мне 19 лет, IT увлечен с 6 класса. Обожаю хороший кофе и бумажные стаканчики с интересными артами)</p></div>,
+        <div className="text-opacity"><p>Умею работать с figma, React, Python, Javascript, Photoshop, Blender 3d. Живу и работаю в Москве. Могу нарисовать твой портрет карандашом:)</p></div>,
+        <div className="text-opacity"><p>На этом сайте ты можешь посмотреть, что я могу сделать, а также ознакомиться с моими другими работами. Если тебе что-то понравится, или ты просто захочешь написать мне, то листай в самый низ сайта.</p></div>,
     ]
     const [textIndex, setTextIndex] = React.useState(0);
     // let textIndex = 0;
@@ -14,7 +14,7 @@ function Block1 (){
     React.useEffect(() => {
         const slider = setInterval(() => {
             setTextIndex((textIndex + 1) % 3);
-        }, 4000);
+        }, 8000);
 
         return () => clearInterval(slider);
     })
