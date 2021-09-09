@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setSortBy } from "../Redux/actions/filters";
 import '../css/block-3-css.css';
 
@@ -33,10 +33,10 @@ function Block3({photos = []}){
                             if (Index % 3 === 0){
                                 return (
                                     <div className="photo">
-                                        <img src={item.imgUrl}/>
+                                        <a href={item.href ? item.href : "#"}><img alt="oops"  src={item.imgUrl}/></a>
                                     </div>
                                 );
-                            } return ;
+                            }
                         })}
                     </div>
                     <div className="photoRow">
@@ -44,10 +44,10 @@ function Block3({photos = []}){
                             if (Index % 3 === 1){
                                 return (
                                     <div className="photo">
-                                        <img src={item.imgUrl}/>
+                                        <a href={item.href ? item.href : "#"}><img alt="oops"  src={item.imgUrl}/></a>
                                     </div>
                                 );
-                            }return;
+                            }
                         })}
                     </div>
                     <div className="photoRow">
@@ -55,10 +55,10 @@ function Block3({photos = []}){
                             if (Index % 3 === 2){
                                 return (
                                     <div className="photo">
-                                        <img src={item.imgUrl}/>
+                                        <a href={item.href ? item.href : "#"}><img alt="oops" src={item.imgUrl}/></a>
                                     </div>
                                 );
-                            }return;
+                            }
                         })}
                     </div>
                 </div>

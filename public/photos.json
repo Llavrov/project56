@@ -3,47 +3,56 @@
     {
       "type": "style",
       "imgUrl": "https://llavrov.github.io/project56/Imges/style_01.jpg",
-      "indexId": 1
+      "indexId": 1,
+      "href": ""
     },
     {
       "type": "style",
       "imgUrl": "https://llavrov.github.io/project56/Imges/style_02.jpg",
-      "indexId": 2
+      "indexId": 2,
+      "href": ""
     },
     {
       "type": "style",
       "imgUrl": "https://llavrov.github.io/project56/Imges/style_03.jpg",
-      "indexId": 3
+      "indexId": 3,
+      "href": ""
     },
     {
       "type": "sport",
       "imgUrl": "https://llavrov.github.io/project56/Imges/sport_01.jpeg",
-      "indexId": 1
+      "indexId": 1,
+      "href": ""
     },
     {
       "type": "friends",
       "imgUrl": "https://llavrov.github.io/project56/Imges/friends_01.jpg",
-      "indexId": 1
+      "indexId": 1,
+      "href": ""
     },
     {
       "type": "friends",
       "imgUrl": "https://llavrov.github.io/project56/Imges/friends_02.jpg",
-      "indexId": 2
+      "indexId": 2,
+      "href": ""
     },
     {
       "type": "projects",
       "imgUrl": "https://llavrov.github.io/project56/Imges/projects_01.jpg",
-      "indexId": 1
+      "indexId": 1,
+      "href": ""
     },
     {
       "type": "projects",
       "imgUrl": "https://llavrov.github.io/project56/Imges/projects_02.jpg",
-      "indexId": 2
+      "indexId": 2,
+      "href": "https://llavrov.github.io/"
     },
     {
       "type": "projects",
       "imgUrl": "https://llavrov.github.io/project56/Imges/projects_03.jpg",
-      "indexId": 3
+      "indexId": 3,
+      "href": "https://llavrov.github.io/Adaptive-site/"
     }
   ]
 }
