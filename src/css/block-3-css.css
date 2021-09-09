@@ -1,6 +1,7 @@
 .block3-container {
     width: 100%;
     background-color: white;
+    clear: both;
 }
 
 .block3-adaptive {

@@ -48,11 +48,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-.about-myself .slider-dot:hover {
+.about-myself .active-dot{
     background-color: #332A699C;
 }
 
-.about-myself .slider-dot:first-child{
+.about-myself .active-dot{
     background-color: #2A699C;
 }
 
@@ -63,3 +63,69 @@
     margin-right: auto;
 }
 
+.about-myself .slider-text .text-opacity p{
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+    transition: opacity 1s ease-in-out;
+}
+@keyframes show{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@media (max-width: 900px) {
+    .Block-1-img {
+        background-size: 400px;
+        height: 600px;
+    }
+
+    .about-myself h1 {
+        font-size: 60px;
+    }
+
+    .about-myself .slider-text p {
+        font-size: 24px;
+    }
+
+    .about-myself .slider-text {
+        width: 300px;
+    }
+
+    .about-myself {
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .Block-1-img {
+        background-size: 300px;
+        height: 500px;
+    }
+
+    .about-myself h1 {
+        font-size: 50px;
+    }
+
+    .about-myself .slider-text p {
+        font-size: 16px;
+    }
+
+    .about-myself .slider-text {
+        width: 200px;
+    }
+
+    .about-myself {
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+
+}
