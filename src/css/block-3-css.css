@@ -85,10 +85,10 @@
     }
 
     .photos-container {
-        display: grid;
-        grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
-        /*flex-wrap: wrap;*/
-        /*flex-direction: row;*/
         padding-bottom: 100px;
+    }
+
+    .tag_unit {
+        margin-left: 20px;
     }
 }
