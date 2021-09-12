@@ -46,8 +46,8 @@
 
 .footer-contact-box h1 {
     text-align: center;
-    color: transparent;
-    -webkit-text-stroke: 1px black;
+    color: #D7F1FF;
+    /*-webkit-text-stroke: 1px black;*/
     font-family: 'Comfortaa', cursive;
     margin-bottom: 0;
     font-size: 20px;

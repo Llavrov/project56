@@ -27,19 +27,136 @@
     width: 589px;
 }
 
-.about-myself h1 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 105px;
-    color: #D7F1FF;
-    text-shadow: 2px 0 0 #D7F1FF, -2px 0 0 #D7F1FF, 0 2px 0 #D7F1FF, 0 -2px 0 #D7F1FF, 1px 1px #D7F1FF, -1px -1px 0 #D7F1FF, 1px -1px 0 #D7F1FF, -1px 1px 0 #D7F1FF, 0px 4px 8px black;
-}
+/*.about-myself #logo {*/
+/*    font-family: 'Comfortaa', cursive;*/
+/*    font-size: 105px;*/
+/*    color: #D7F1FF;*/
+/*    text-shadow: 2px 0 0 #D7F1FF, -2px 0 0 #D7F1FF, 0 2px 0 #D7F1FF, 0 -2px 0 #D7F1FF, 1px 1px #D7F1FF, -1px -1px 0 #D7F1FF, 1px -1px 0 #D7F1FF, -1px 1px 0 #D7F1FF, 0px 4px 8px black;*/
+/*}*/
+
 .about-myself .slider-text p {
     font-family: 'Comfortaa', cursive;
-    color: transparent;
-    -webkit-text-stroke: 1px black;
+    color: #D7F1FF;
+    text-shadow: 0px 4px 8px black;
+
+    /*-webkit-text-stroke: 1px black;*/
     font-size: 42px;
     height: 480px;
 }
+
+/*.about-myself #logo #path-1-outside-1 {*/
+/*    animation: fill 1s ease forwards 4s;*/
+/*}*/
+/*.about-myself #logo{*/
+/*    animation: fill 1s ease forwards 4s;*/
+/*}*/
+
+/*         ----------     logo       ----------   */
+
+/*#logo #path-1-outside-1 path:nth-child(1){*/
+/*    stroke-dasharray: 30px;*/
+/*}*/
+#logo path:nth-child(2){
+    stroke-dasharray: 248px;
+    stroke-dashoffset: 248px;
+    animation: line-anim 2s ease forwards;
+}
+#logo #path-1-outside-1 path:nth-child(2){
+    stroke-dasharray: 248px;
+    stroke-dashoffset: 248px;
+}
+#logo #path-1-outside-1 path:nth-child(3){
+    stroke-dasharray: 328px;
+    stroke-dashoffset: 328px;
+}
+#logo path:nth-child(3){
+    stroke-dasharray: 328px;
+    stroke-dashoffset: 328px;
+    animation: line-anim 2s ease forwards 0.4s;
+}
+#logo #path-1-outside-1 path:nth-child(4){
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+}
+#logo path:nth-child(4){
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+    animation: line-anim 2s ease forwards 0.8s;
+}
+#logo #path-1-outside-1 path:nth-child(5){
+    stroke-dasharray: 248px;
+    stroke-dashoffset: 248px;
+}
+#logo path:nth-child(5){
+    stroke-dasharray: 248px;
+    stroke-dashoffset: 248px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#logo #path-1-outside-1 path:nth-child(6){
+    stroke-dasharray: 309px;
+    stroke-dashoffset: 309px;
+}
+#logo path:nth-child(6){
+    stroke-dasharray: 309px;
+    stroke-dashoffset: 309px;
+    animation: line-anim 2s ease forwards 1.4s;
+}
+#logo #path-1-outside-1 path:nth-child(7){
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+}
+#logo path:nth-child(7){
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+#logo #path-1-outside-1 path:nth-child(8){
+    stroke-dasharray: 178px;
+    stroke-dashoffset: 178px;
+}
+#logo path:nth-child(8){
+    stroke-dasharray: 178px;
+    stroke-dashoffset: 178px;
+    animation: line-anim 2s ease forwards 2.2s;
+}
+#logo #path-1-outside-1 path:nth-child(9){
+    stroke-dasharray: 291px;
+    stroke-dashoffset: 291px;
+}
+#logo path:nth-child(9){
+    stroke-dasharray: 291px;
+    stroke-dashoffset: 291px;
+    animation: line-anim 2s ease forwards 2.6s;
+}
+#logo #path-1-outside-1 path:nth-child(10){
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+}
+#logo path:nth-child(10){
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+    animation: line-anim 2s ease forwards 3s;
+}
+/*------------------------------------------------------*/
+/*    Animation  */
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #D7F1FF;
+    }
+}
+
+/*------------------------------------------------------*/
+
 
 .about-myself .slider-dot {
     width: 16px;
