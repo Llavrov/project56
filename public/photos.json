@@ -53,6 +53,12 @@
       "imgUrl": "https://llavrov.github.io/project56/Imges/projects_03.jpg",
       "indexId": 3,
       "href": "https://llavrov.github.io/Adaptive-site/"
+    },
+    {
+      "type": "projects",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/restaurant.jpg",
+      "indexId": 4,
+      "href": "https://llavrov.github.io/Restaurant56/"
     }
   ]
 }

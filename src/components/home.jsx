@@ -5,13 +5,14 @@ import "../css/home-css.css"
 import Block1 from "./Block-1";
 import Block2 from "./Block-2";
 import Block3 from "./Block-3";
-import Header from "./header";
-import Block6 from "./Block-6";
-import PopUp from "./popUp";
+// import Header from "./header";
+// import Block6 from "./Block-6";
+// import PopUp from "./popUp";
 import Footer from "./Footer";
+import Block4 from "./Block-4";
 
 function Home() {
-    let array = [1, 2, 3, 4, 5];
+    // let array = [1, 2, 3, 4, 5];
 
     const dispatch = useDispatch();
     const sortBy = useSelector(({ filters }) => filters.sortBy);
@@ -26,6 +27,7 @@ function Home() {
           {/*<Header></Header>*/}
           <Block1></Block1>
           <Block2></Block2>
+          <Block4></Block4>
           <Block3 photos={photos}></Block3>
           <Footer></Footer>
           {/*<Block6></Block6>*/}
