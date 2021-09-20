@@ -1,5 +1,24 @@
 {
   "photos": [
+
+    {
+      "type": "projects",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/projects_01.jpg",
+      "indexId": 1,
+      "href": ""
+    },
+    {
+    "type": "projects",
+    "imgUrl": "https://llavrov.github.io/project56/Imges/projects_03.jpg",
+    "indexId": 3,
+    "href": "https://llavrov.github.io/Adaptive-site/"
+    },
+    {
+    "type": "projects",
+    "imgUrl": "https://llavrov.github.io/project56/Imges/restaurant.jpg",
+    "indexId": 4,
+    "href": "https://llavrov.github.io/Restaurant56/"
+    },
     {
       "type": "style",
       "imgUrl": "https://llavrov.github.io/project56/Imges/style_01.jpg",
@@ -35,24 +54,6 @@
       "imgUrl": "https://llavrov.github.io/project56/Imges/friends_02.jpg",
       "indexId": 2,
       "href": ""
-    },
-    {
-      "type": "projects",
-      "imgUrl": "https://llavrov.github.io/project56/Imges/projects_01.jpg",
-      "indexId": 1,
-      "href": ""
-    },
-    {
-      "type": "projects",
-      "imgUrl": "https://llavrov.github.io/project56/Imges/projects_03.jpg",
-      "indexId": 3,
-      "href": "https://llavrov.github.io/Adaptive-site/"
-    },
-    {
-      "type": "projects",
-      "imgUrl": "https://llavrov.github.io/project56/Imges/restaurant.jpg",
-      "indexId": 4,
-      "href": "https://llavrov.github.io/Restaurant56/"
     }
   ]
 }
