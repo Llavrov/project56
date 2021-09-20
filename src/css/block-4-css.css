@@ -1,0 +1,159 @@
+
+.Block-4-container {
+    background-image: url("../images/baikal.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position-y: center;
+    box-shadow: inset 0px 110px 150px rgba(0, 0, 0, 0.8), inset 0px -110px 150px rgba(0, 0, 0, 0.8);
+}
+
+.Block-4-gradient {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(45deg, #3EB08B, rgba(44, 55, 89, 1));
+    opacity: 0.4;
+    position: absolute;
+    z-index: 10;
+}
+
+.svg-container {
+    /*margin-right: auto;*/
+    left: calc(50% - 560px);
+    right: 50%;
+    position: absolute;
+    z-index: 11;
+    /*width: 94%;*/
+    max-width: 1440px;
+    height: 650px;
+}
+
+#label-block4 {
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.label-mini {
+    display: none;
+}
+
+
+/* Rectangle 25 */
+.block-4-btn {
+    transition: 2s;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 202px;
+    height: 58px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+/* написать */
+.block-4-btn-text {
+    display: inline-block;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.block-4-btn {
+    /*box-shadow: 0 -200px 100px -120px crimson inset;*/
+    background: linear-gradient(263.7deg, #2C3759 11.59%, rgba(44, 55, 89, 0) 74.79%), #3EB08B;
+}
+
+.block-4-btn:hover {
+    animation: btnEffect 1s ease forwards 0.4s;
+}
+
+
+@keyframes btnEffect {
+    100% {
+        /*background: skyblue;*/
+        background: linear-gradient(263.7deg, #2C3759, rgba(44, 55, 89, 0)), #3EB08B;
+        box-shadow:  10px 10px 50px rgb(44, 55, 89);
+    }
+}
+
+@keyframes rotateBtn {
+    100% {
+        transform: rotate(180deg);
+        background: linear-gradient(263.7deg, rgba(190, 203, 243, 1) 11.59%, #EDA9A5 74.79%), #3EB08B;
+    }
+}
+
+.toTheBottom {
+    background-color: #2A699C;
+}
+
+.toTheBottom p{
+    font-size: 30px;
+    font-family: Comfortaa;
+    margin-left: 40px;
+    color: white;
+}
+.closeBlock{
+    position: relative;
+}
+
+.closeBlock::after {
+    content: "";
+    background-color: #2A699C;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 33px;
+    border-left: 2px solid red;
+    animation: leftMotion 1,5s  infinite;
+}
+
+@keyframes leftMotion {
+    100% {
+        left: 100%;
+        margin: 0 35px 0 35px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .label-big {
+        display: none;
+    }
+    .label-mini {
+        display: block;
+    }
+
+    .svg-container {
+        left: calc(50% - 330px);
+    }
+
+    .Block-4-container {
+        height: 500px;
+    }
+
+    .Block-4-gradient {
+        height: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .label-big {
+        display: none;
+    }
+    .label-mini {
+        display: block;
+    }
+
+    .svg-container {
+        left: calc(50% - 200px);
+    }
+    .Block-4-container {
+        height: 400px;
+    }
+    .Block-4-gradient {
+        height: 400px;
+    }
+}
