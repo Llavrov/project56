@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
 .App-container {
     height: 100%;
     width: 100%;
@@ -6,4 +8,23 @@
 
 body {
     background-color: #F5F5F7;
+}
+
+.write-text {
+    display: block;
+    font-size: 20px;
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    margin-top: 0;
+    background-color: #d7f1ff;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1001;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 2px 2px 6px #0E2C45;
+}
+
+.write-text-off {
+    display: none;
 }

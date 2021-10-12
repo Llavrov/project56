@@ -11,7 +11,7 @@ import Block3 from "./Block-3";
 import Footer from "./Footer";
 import Block4 from "./Block-4";
 
-function Home() {
+function Home({state, setState}) {
     // let array = [1, 2, 3, 4, 5];
 
     const dispatch = useDispatch();
@@ -27,7 +27,7 @@ function Home() {
           {/*<Header></Header>*/}
           <Block1></Block1>
           <Block2></Block2>
-          <Block4></Block4>
+          <Block4 setState={setState} state={state}></Block4>
           <Block3 photos={photos}></Block3>
           <Footer></Footer>
           {/*<Block6></Block6>*/}

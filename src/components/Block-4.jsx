@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/block-4-css.css';
 
-function Block4() {
+function Block4({state, setState}) {
     function btnClick() {
         let btn = document.querySelector('.block-4-btn');
         btn.style.animation = 'rotateBtn 1s easy';
@@ -100,7 +100,7 @@ function Block4() {
                         </defs>
                     </svg>
 
-                    <div className="block-4-btn" onClick={() => btnClick()}>
+                    <div className="block-4-btn" onClick={() => setState(!state)}>
                         <p className="block-4-btn-text">написать</p>
                     </div>
                     {/*<div className="toTheBottom">*/}

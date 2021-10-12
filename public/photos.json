@@ -8,6 +8,12 @@
       "href": ""
     },
     {
+      "type": "projects",
+      "imgUrl": "https://llavrov.github.io/project56/Imges/HarryPotter.jpg",
+      "indexId": 4,
+      "href": "https://llavrov.github.io/HarryPotter/"
+    },
+    {
     "type": "projects",
     "imgUrl": "https://llavrov.github.io/project56/Imges/projects_03.jpg",
     "indexId": 3,
