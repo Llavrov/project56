@@ -12,7 +12,7 @@ function App() {
     <div className="App-container">
         {/*<Header/>*/}
         <div className={!popUp ? "write-text" : "write-text-off"} onClick={() => setPopUp(!popUp)}> Написать </div>
-        <PopUp state={popUp} setState={setPopUp}></PopUp>
+        {/*<PopUp state={popUp} setState={setPopUp}></PopUp>*/}
         <Home state={popUp} setState={setPopUp}/>
     </div>
   );
