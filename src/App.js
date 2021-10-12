@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App-container">
         {/*<Header/>*/}
-        <div className={!popUp ? "write-text" : "write-text-off"} onClick={() => setPopUp(!popUp)}> Написать </div>
+        {/*<div className={!popUp ? "write-text" : "write-text-off"} onClick={() => setPopUp(!popUp)}> Написать </div>*/}
         {/*<PopUp state={popUp} setState={setPopUp}></PopUp>*/}
         <Home state={popUp} setState={setPopUp}/>
     </div>
