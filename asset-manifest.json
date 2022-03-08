@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project56/static/css/main.9991e9cf.chunk.css",
-    "main.js": "/project56/static/js/main.00e69233.chunk.js",
-    "main.js.map": "/project56/static/js/main.00e69233.chunk.js.map",
+    "main.css": "/project56/static/css/main.ffb84b87.chunk.css",
+    "main.js": "/project56/static/js/main.5d7a925d.chunk.js",
+    "main.js.map": "/project56/static/js/main.5d7a925d.chunk.js.map",
     "runtime-main.js": "/project56/static/js/runtime-main.2111dab2.js",
     "runtime-main.js.map": "/project56/static/js/runtime-main.2111dab2.js.map",
-    "static/js/2.8c7ae751.chunk.js": "/project56/static/js/2.8c7ae751.chunk.js",
-    "static/js/2.8c7ae751.chunk.js.map": "/project56/static/js/2.8c7ae751.chunk.js.map",
+    "static/js/2.0f8a4ec1.chunk.js": "/project56/static/js/2.0f8a4ec1.chunk.js",
+    "static/js/2.0f8a4ec1.chunk.js.map": "/project56/static/js/2.0f8a4ec1.chunk.js.map",
     "index.html": "/project56/index.html",
-    "static/css/main.9991e9cf.chunk.css.map": "/project56/static/css/main.9991e9cf.chunk.css.map",
-    "static/js/2.8c7ae751.chunk.js.LICENSE.txt": "/project56/static/js/2.8c7ae751.chunk.js.LICENSE.txt",
+    "static/css/main.ffb84b87.chunk.css.map": "/project56/static/css/main.ffb84b87.chunk.css.map",
+    "static/js/2.0f8a4ec1.chunk.js.LICENSE.txt": "/project56/static/js/2.0f8a4ec1.chunk.js.LICENSE.txt",
     "static/media/01.6f92931c.jpg": "/project56/static/media/01.6f92931c.jpg",
     "static/media/02.f1a4491b.jpg": "/project56/static/media/02.f1a4491b.jpg",
     "static/media/03.23afebb4.jpg": "/project56/static/media/03.23afebb4.jpg",
@@ -18,13 +18,14 @@
     "static/media/block-1-css.css": "/project56/static/media/Lev-b1.4e1a801b.png",
     "static/media/Lighthouse.07994231.jpg": "/project56/static/media/Lighthouse.07994231.jpg",
     "static/media/block-4-css.css": "/project56/static/media/baikal.413e7a28.png",
+    "static/media/coffee-cup.cf212b06.png": "/project56/static/media/coffee-cup.cf212b06.png",
     "static/media/icon lev.12a33735.png": "/project56/static/media/icon lev.12a33735.png",
     "static/media/block-2-css.css": "/project56/static/media/icon-react.f5c26a52.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2111dab2.js",
-    "static/js/2.8c7ae751.chunk.js",
-    "static/css/main.9991e9cf.chunk.css",
-    "static/js/main.00e69233.chunk.js"
+    "static/js/2.0f8a4ec1.chunk.js",
+    "static/css/main.ffb84b87.chunk.css",
+    "static/js/main.5d7a925d.chunk.js"
   ]
 }
