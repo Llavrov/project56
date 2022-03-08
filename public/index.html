@@ -11,12 +11,32 @@
     />
 <!--    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />-->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
+    <link rel="stylesheet" href="./style.css">
     <title>Lev website</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #F5F5F7;
+      }
+      body {
+        overflow: auto; /* добавить полосу прокрутки */
+      }
+      #root {
+        min-height: 100%;
+        position: relative;
+      }
+
+      .App-container {
+        height: inherit;
+      }
+    </style>
+    <div id="root" ></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

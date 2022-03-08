@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Roboto&display=swap');
+
+.Contacts-container {
+    height: calc(100% - 78px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #030416;
+    overflow: hidden;
+    position: relative;
+}
+.ImagePixels {
+    opacity: 0;
+    transition: opacity 2s ease 0.4s, transform 0.8s ease;
+    transform: scale(1);
+}
+
+.ImagePixels img {
+    height: 120px;
+    width: 120px;
+}
+
+.Contacts-container .ImagePixels:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    transform: scale(1.04);
+}
+
+.contentContacts {
+    position: relative;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 10;
+}
+
+
+.tetxContent {
+    max-width: 100px;
+    position: relative;
+}
+
+.tetxContent .btn-contact {
+    background-color: #C80000;
+    border-radius: 2px;
+    display: block;
+    margin-top: 30px;
+}
+
+.tetxContent .btn-contact:hover {
+    background-color: #940909;
+    transform: scale(1.04);
+}
+
+
+.tetxContent .btn-contact img {
+    position: relative;
+    bottom: -4px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.tetxContent .btn-contact {
+    display: inline-block;
+    width: 250px;
+    cursor: pointer;
+    font-size: 2.3rem;
+    padding: 10px;
+    color: white;
+    font-family: 'Alef', sans-serif;
+    text-align: center;
+}
+
+.tetxContent .btn-contact:nth-child(2n) {
+    margin-left: 200px;
+}
+
+.tetxContent .btn-contact{
+    transform: translateX(0);
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+}
+
+.tetxContent .btn-contact:nth-child(2n):hover {
+    transform: translateX(-30px);
+    transition: transform 0.2s ease;
+}
+
+.tetxContent .btn-contact:nth-child(2n - 1):hover {
+    transform: translateX(30px);
+    transition: transform 0.2s ease;
+}
+
+.contentContacts h1 {
+    position: relative;
+    color: white;
+    font-size: 6rem;
+    margin: 0;
+}
+
+.CoffeeCupImg {
+    position: absolute;
+    transform: rotate(-10deg);
+    right: -12%;
+    top: 15%;
+    width: 38%;
+}
+
+.CoffeeCupImg img {
+    width: 100%;
+}

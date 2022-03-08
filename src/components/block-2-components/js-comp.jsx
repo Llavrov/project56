@@ -17,32 +17,21 @@ function JsComponent(){
         <img key={img05} src={img05} alt="oops" />,
     ];
     const [activeIndex, setActiveIndex] = React.useState(0);
+    const [lastTime, setlastTime] = React.useState(0);
 
     function GoodIndex(number, modul){
-        while (number < 0) {
-            number = modul - Math.abs(number);
-        }
-        return number % modul;
+        return Math.abs(modul + number) % modul;
     }
 
-    function Next(number){
-        setActiveIndex( GoodIndex(number+1, 5));
-        console.log("next " + number);
+    function Next(number, evt){
+        if (evt.timeStamp - lastTime > 1000) {
+            setActiveIndex(GoodIndex(number + 1, 5));
+            setlastTime(evt.timeStamp);
+        }
+        console.log(evt);
     }
 
     function Prev(number) {
-        let activeItem = document.querySelector('.Activ-elem');
-        let preprevItem = document.querySelector('.PrePrev-elem');
-        let prevItem = document.querySelector('.Prev-elem');
-        let nextItem = document.querySelector('.Next-elem');
-        let nenextItem = document.querySelector('.NeNext-elem');
- 
-        // prevItem.style.transform = 'translateX(0%) scale(1)';
-        // prevItem.style.transition = "all 1s";
-        // nextItem.style.transform = 'translateX(220%) scale(1.2)';
-        // preprevItem.style.transform = 'translateX(-120%) scale(1.2)';
-        // activeItem.style.transform = 'translateX(120%) scale(1.2)';
-        // activeItem.style.transition = "all 1s";
         setActiveIndex(GoodIndex(number-1, 5));
         console.log("prev " + activeIndex);
     }
@@ -62,12 +51,12 @@ function JsComponent(){
                 <div className="Next-elem" key={GoodIndex(activeIndex+1, 5)}>{imgArray[GoodIndex(activeIndex+1, 5)]}</div>
                 <div className="NeNext-elem" key={GoodIndex(activeIndex+2, 5)}>{imgArray[GoodIndex(activeIndex+2, 5)]}</div>
             </div>
-            <div className="Next-btn" onClick={() => Next(activeIndex)}>
+            <div className="Next-btn" onClick={(event) => Next(activeIndex, event)}>
                 <img src={rightBtn} alt="OOps"/>
             </div>
-            <div className="Prev-btn" onClick={() => Prev(activeIndex)}>
-                <img src={leftBtn} alt="OOps"/>
-            </div>
+            {/*<div className="Prev-btn" onClick={() => Prev(activeIndex)}>*/}
+            {/*    <img src={leftBtn} alt="OOps"/>*/}
+            {/*</div>*/}
         </div>
     );
 }

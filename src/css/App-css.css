@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 
-.App-container {
-    height: 100%;
-    width: 100%;
+#root .App-container {
+    height: 100vh;
     background-color: #F5F5F7;
 }
 
-body {
-    background-color: #F5F5F7;
-}
 
 .write-text {
     display: block;
@@ -27,4 +23,10 @@ body {
 
 .write-text-off {
     display: none;
+}
+
+@media (max-width: 1280px) {
+    .Header_container {
+        display: none;
+    }
 }

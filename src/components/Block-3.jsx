@@ -14,7 +14,7 @@ function Block3({photos = []}){
     }
 
     return (
-        <div className="block3-container">
+        <div className="block3-container" id={'Projects'}>
             <div className="block3-adaptive">
                 <div className="tags-container">
                     {tags.map((item, index) => {

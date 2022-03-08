@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/header-css.css';
 import armOpen from "../images/Arm open.png";
-import armClose from "../images/Arm close.png";
 import Label from "../images/icon lev.png";
+import {Link} from "react-router-dom";
 
 function Header(){
     const [armImg, setArmImg] = React.useState(armOpen);
@@ -12,18 +12,22 @@ function Header(){
             <div className="Header-border">
                 <div className="Header-content">
                     <div className="Header-img">
-                        <img src={Label} alt="OOps"/>
+                        <Link to="/" replace>
+                            <img src={Label} alt="OOps"/>
+                        </Link>
                     </div>
                     <ul className="Header-menu">
-                        <li>Contacts</li>
-                        <li>Skills</li>
-                        <li>Parallax</li>
+                        <Link to="/Contacts" replace>
+                            <li>Contacts</li>
+                        </Link>
+                        <li><a href={'#skills'}>Skills</a></li>
+                        <li><a href={'#Projects'}>Projects</a></li>
                     </ul>
                 </div>
-                <div className="Arm-container"
-                     onMouseDown={() => setArmImg(armClose)}
-                     onMouseUp={() => setArmImg(armOpen)}
-                ><img src={armImg} alt="OOps"/></div>
+                {/*<div className="Arm-container"*/}
+                {/*     onMouseDown={() => setArmImg(armClose)}*/}
+                {/*     onMouseUp={() => setArmImg(armOpen)}*/}
+                {/*><img src={armImg} alt="OOps"/></div>*/}
             </div>
         </div>
     );

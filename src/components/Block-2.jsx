@@ -6,7 +6,7 @@ import JsComponent from "./block-2-components/js-comp";
 function Block2 (){
 
     return (
-        <div className="Block-2-container">
+        <div className="Block-2-container" id={"skills"}>
             <ReactComp></ReactComp>
             <JsComponent></JsComponent>
         </div>

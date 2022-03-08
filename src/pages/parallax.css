@@ -1,0 +1,33 @@
+
+.parallax-container {
+    background-color: #0E2C45;
+    padding: 20px;
+}
+#effect {
+    position: absolute;
+}
+#effect path{
+    stroke-dasharray: 1131px;
+    stroke-dashoffset: 1131px;
+    animation: effect-anim 3s ease forwards infinite;
+}
+
+.effect-one {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.effect-two {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.effect-three {
+    margin-left: 200px;
+}
+@keyframes effect-anim {
+    to {
+        stroke-dashoffset: 0px;
+    }
+}
+

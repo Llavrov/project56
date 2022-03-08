@@ -2,14 +2,14 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {fetchPhotos} from "../Redux/actions/photos";
 import "../css/home-css.css"
-import Block1 from "./Block-1";
-import Block2 from "./Block-2";
-import Block3 from "./Block-3";
+import Block1 from "../components/Block-1";
+import Block2 from "../components/Block-2";
+import Block3 from "../components/Block-3";
 // import Header from "./header";
 // import Block6 from "./Block-6";
 // import PopUp from "./popUp";
-import Footer from "./Footer";
-import Block4 from "./Block-4";
+import Footer from "../components/Footer";
+import Block4 from "../components/Block-4";
 
 function Home({state, setState}) {
     // let array = [1, 2, 3, 4, 5];
